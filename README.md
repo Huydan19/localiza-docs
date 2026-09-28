@@ -4,6 +4,10 @@ Sistema de amostra para **encontrar documentos físicos dentro da empresa**, usa
 
 **Av. Bernardo Vasconcelos, 377 — Cachoeirinha — Belo Horizonte/MG**
 
+## Site online
+
+**https://huydan19.github.io/localiza-docs/**
+
 ## Ideia
 
 | Na agência Localiza | Neste sistema |
@@ -21,12 +25,11 @@ Exemplo de resposta:
 
 Recepção, Atendimento, Comercial, Jurídico, Compliance, Financeiro, RH, Arquivo Ativo, Arquivo Morto, Cofre, Sala de Reunião Norte.
 
-## Como rodar
+## Como rodar localmente
 
 ```bash
-cd C:\Users\huyda\projetothalita\localiza-docs
+git clone https://github.com/Huydan19/localiza-docs.git
+cd localiza-docs
 npm install
 npm run dev
 ```
-
-Abra `http://127.0.0.1:5173/`.
